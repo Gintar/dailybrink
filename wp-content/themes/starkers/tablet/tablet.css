@@ -1,0 +1,536 @@
+/* @override http://www.dailybrink.com/wp-content/themes/starkers/tablet/tablet.css */
+
+@font-face {
+    font-family: 'MuseoSlab500Italic';
+    src: url('webfonts/Museo_Slab_500italic-webfont.eot');
+    src: url('webfonts/Museo_Slab_500italic-webfont.eot?iefix') format('eot'),
+         url('webfonts/Museo_Slab_500italic-webfont.woff') format('woff'),
+         url('webfonts/Museo_Slab_500italic-webfont.ttf') format('truetype'),
+         url('webfonts/Museo_Slab_500italic-webfont.svg#webfont3dFIImcj') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSlab500';
+    src: url('webfonts/Museo_Slab_500-webfont.eot');
+    src: url('webfonts/Museo_Slab_500-webfont.eot?iefix') format('eot'),
+         url('webfonts/Museo_Slab_500-webfont.woff') format('woff'),
+         url('webfonts/Museo_Slab_500-webfont.ttf') format('truetype'),
+         url('webfonts/Museo_Slab_500-webfont.svg#webfontyumMOUTD') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'StMarieThin';
+    src: url('webfonts/stmarie-thin-webfont.eot');
+    src: url('webfonts/stmarie-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/stmarie-thin-webfont.woff') format('woff'),
+         url('webfonts/stmarie-thin-webfont.ttf') format('truetype'),
+         url('webfonts/stmarie-thin-webfont.svg#StMarieThin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* @group Function PRO */
+
+@font-face {
+    font-family: 'FunctionProExtraBoldCondensed';
+    src: url('webfonts/FunctionPro-CondensedExtraBd-webfont.eot');
+    src: url('webfonts/FunctionPro-CondensedExtraBd-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-CondensedExtraBd-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-CondensedExtraBd-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-CondensedExtraBd-webfont.svg#webfontnsr76S00') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionProBookOblique';
+    src: url('webfonts/FunctionPro-BookOblique-webfont.eot');
+    src: url('webfonts/FunctionPro-BookOblique-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-BookOblique-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-BookOblique-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-BookOblique-webfont.svg#webfontwdRo4BOj') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionCapsDemi';
+    src: url('webfonts/FunctionCaps-Demi-webfont.eot');
+    src: url('webfonts/FunctionCaps-Demi-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionCaps-Demi-webfont.woff') format('woff'),
+         url('webfonts/FunctionCaps-Demi-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionCaps-Demi-webfont.svg#webfontj3EPgnt4') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionProBoldCondensed';
+    src: url('webfonts/FunctionPro-CondensedBold-webfont.eot');
+    src: url('webfonts/FunctionPro-CondensedBold-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-CondensedBold-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-CondensedBold-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-CondensedBold-webfont.svg#webfont35se4GX0') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionProBoldCondensedObliq';
+    src: url('webfonts/FunctionPro-CondensedBoldObl-webfont.eot');
+    src: url('webfonts/FunctionPro-CondensedBoldObl-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-CondensedBoldObl-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-CondensedBoldObl-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-CondensedBoldObl-webfont.svg#webfontBL4ApwAd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'FunctionProExtraBoldOblique';
+    src: url('webfonts/FunctionPro-ExtraBoldOblique-webfont.eot');
+    src: url('webfonts/FunctionPro-ExtraBoldOblique-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-ExtraBoldOblique-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-ExtraBoldOblique-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-ExtraBoldOblique-webfont.svg#webfontaydUloiw') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionProMediumCondensed';
+    src: url('webfonts/FunctionPro-Condensed-webfont.eot');
+    src: url('webfonts/FunctionPro-Condensed-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-Condensed-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-Condensed-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-Condensed-webfont.svg#webfontoIHWyRTk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionProBoldOblique';
+    src: url('webfonts/FunctionPro-BoldOblique-webfont.eot');
+    src: url('webfonts/FunctionPro-BoldOblique-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-BoldOblique-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-BoldOblique-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-BoldOblique-webfont.svg#webfontLd45uWSD') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionProLightCondensed';
+    src: url('webfonts/FunctionPro-CondensedLight-webfont.eot');
+    src: url('webfonts/FunctionPro-CondensedLight-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-CondensedLight-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-CondensedLight-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-CondensedLight-webfont.svg#webfontjBx6TePg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionProDemiOblique';
+    src: url('webfonts/FunctionPro-DemiOblique-webfont.eot');
+    src: url('webfonts/FunctionPro-DemiOblique-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-DemiOblique-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-DemiOblique-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-DemiOblique-webfont.svg#webfont3o5Y8Qtk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionProExtraBoldCondensed';
+    src: url('webfonts/FunctionPro-CondExtraBoldObl-webfont.eot');
+    src: url('webfonts/FunctionPro-CondExtraBoldObl-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-CondExtraBoldObl-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-CondExtraBoldObl-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-CondExtraBoldObl-webfont.svg#webfontY2b7bjpw') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionProBold';
+    src: url('webfonts/FunctionPro-Bold-webfont.eot');
+    src: url('webfonts/FunctionPro-Bold-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-Bold-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-Bold-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-Bold-webfont.svg#webfontfJXKJAfV') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionProLightOblique';
+    src: url('webfonts/FunctionPro-LightOblique-webfont.eot');
+    src: url('webfonts/FunctionPro-LightOblique-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-LightOblique-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-LightOblique-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-LightOblique-webfont.svg#webfontzewVrfGr') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionCapsLight';
+    src: url('webfonts/FunctionCaps-Light-webfont.eot');
+    src: url('webfonts/FunctionCaps-Light-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionCaps-Light-webfont.woff') format('woff'),
+         url('webfonts/FunctionCaps-Light-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionCaps-Light-webfont.svg#webfontzCtWiP22') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionProExtraBold';
+    src: url('webfonts/FunctionPro-ExtraBold-webfont.eot');
+    src: url('webfonts/FunctionPro-ExtraBold-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-ExtraBold-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-ExtraBold-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-ExtraBold-webfont.svg#webfontTg2qcm4o') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionCapsMedium';
+    src: url('webfonts/FunctionCaps-Medium-webfont.eot');
+    src: url('webfonts/FunctionCaps-Medium-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionCaps-Medium-webfont.woff') format('woff'),
+         url('webfonts/FunctionCaps-Medium-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionCaps-Medium-webfont.svg#webfontMdfoCC2z') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'FunctionProLightCondensedObli';
+    src: url('webfonts/FunctionPro-CondensedLightObl-webfont.eot');
+    src: url('webfonts/FunctionPro-CondensedLightObl-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-CondensedLightObl-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-CondensedLightObl-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-CondensedLightObl-webfont.svg#webfontTdhnePBA') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionProBook';
+    src: url('webfonts/FunctionPro-Book-webfont.eot');
+    src: url('webfonts/FunctionPro-Book-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-Book-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-Book-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-Book-webfont.svg#webfontJO3pCHUe') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'FunctionProMediumOblique';
+    src: url('webfonts/FunctionPro-MediumOblique-webfont.eot');
+    src: url('webfonts/FunctionPro-MediumOblique-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-MediumOblique-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-MediumOblique-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-MediumOblique-webfont.svg#webfontHM0VAUIO') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'FunctionProDemi';
+    src: url('webfonts/FunctionPro-Demi-webfont.eot');
+    src: url('webfonts/FunctionPro-Demi-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-Demi-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-Demi-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-Demi-webfont.svg#webfontalFyZ4NE') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionProMedium';
+    src: url('webfonts/FunctionPro-Medium-webfont.eot');
+    src: url('webfonts/FunctionPro-Medium-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-Medium-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-Medium-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-Medium-webfont.svg#webfontrF77UyWk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionProLight';
+    src: url('webfonts/FunctionPro-Light-webfont.eot');
+    src: url('webfonts/FunctionPro-Light-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-Light-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-Light-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-Light-webfont.svg#webfontogLVewVZ') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionProMediumCondensedObl';
+    src: url('webfonts/FunctionPro-CondensedOblique-webfont.eot');
+    src: url('webfonts/FunctionPro-CondensedOblique-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionPro-CondensedOblique-webfont.woff') format('woff'),
+         url('webfonts/FunctionPro-CondensedOblique-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionPro-CondensedOblique-webfont.svg#webfont23Vl7Bgh') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FunctionCapsBook';
+    src: url('webfonts/FunctionCaps-Book-webfont.eot');
+    src: url('webfonts/FunctionCaps-Book-webfont.eot?iefix') format('eot'),
+         url('webfonts/FunctionCaps-Book-webfont.woff') format('woff'),
+         url('webfonts/FunctionCaps-Book-webfont.ttf') format('truetype'),
+         url('webfonts/FunctionCaps-Book-webfont.svg#webfontuHPlF47t') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* @end */
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	text-decoration: none;
+    font-weight: normal;
+    font-style: normal;	
+}
+
+body {
+	width: 768px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+#main {
+}
+
+#cover {
+	width: 768px;
+	height: 1024px;
+	overflow: hidden;
+}
+
+.cover-logo {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+
+.cover-credits {
+	margin-top: 720px;
+}
+
+.cover-title {
+	text-transform: uppercase;
+	font-family: 'StMarieThin';
+	font-size: 60px;
+    font-weight: normal;
+    font-style: normal;
+	width: 768px;
+	text-align: center;
+}
+
+.cover-byline {
+	text-transform: uppercase;
+	font-family: 'StMarieThin';
+	padding-left: 50px;
+	font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+	width: 718px;
+	text-align: center;	
+}
+
+.cover-byline span {
+	font-size: 16px;
+}
+
+#introduction {
+	padding: 100px 50px 24px;
+	height: 900px ;
+	overflow: hidden;
+}
+
+#introduction p {
+	font-style: normal;
+	line-height: 33px;
+	font-size: 25px;
+	font-variant: normal;
+	font-family: Times-Italic;
+}
+
+#story {
+	padding: 25px;
+	height: 3022px;
+}
+
+.the-story {
+	text-align: left;
+}
+
+.the-story p {
+	padding-left: 150px;
+	padding-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 1.35em;
+	text-indent: 1.5em;
+	text-align: justify;
+	font-size: 1em;
+}
+
+p {
+	font-size: 16px;
+	line-height: 20px;
+	color: #424242;
+}
+
+.question {
+	margin: 0px;
+	padding: 0px;
+	text-align: left !important;
+	text-transform: uppercase;
+	padding-top: 25px;
+	line-height: 1.5em;
+	font-size: 1.25em !important;
+	font-family: FunctionProBoldCondensed !important;
+	text-decoration: underline;
+	text-indent: 0px !important;
+}
+
+#gallery {
+	background-color: black;
+	color: white;
+	width: 768px;
+	height: 1024px;	
+}
+
+#gallery .scrollable .items img {
+	height: 100%;
+}
+
+#video {
+	background-color: black;
+	color: white;
+	width: 768px;
+	height: 1024px;	
+}
+
+#video .scrollable .items img {
+	height: 100%;
+}
+
+
+#scrollable {
+	/* required settings */
+	position:relative;
+	overflow: hidden;
+	width: 768px;
+	height: 1024px;
+}
+
+#scrollable .items {
+	/* this cannot be too large */
+	width:20000em;
+	position:absolute;
+}
+
+.items div {
+	float:left;
+	padding: 25px 50px;
+	height: 974px;
+	width: 666px;	
+	text-align: center;
+	
+}
+
+.items div img {
+}
+
+.slideshow-title {
+	float: left;
+	width: 615px !important;
+	height: auto !important;
+}
+
+
+#connect {
+	background-color: #a9a9a9;
+	color: white;
+	width: 768px;
+	height: 1024px;	
+}
+
+#about {
+	font-family: HoeflerText-Regular;
+	padding: 25px;
+}
+
+.about-text p {
+	font-size: 11px;
+	line-height: 12px;
+}
+
+.about-text p strong {
+	font: 14px BodoniSvtyTwoOSITCTT-Book;
+}
+
+
+
+

@@ -1,0 +1,1163 @@
+/*
+Theme Name: DAILY BRINK
+Theme URI: http://ryochiba.com
+Description: DAILY BRINK
+Version: 2 (WP2.6.2)
+Author: Ryo Chiba
+Author URI: http://www.ryochiba.com
+Tags: daily, brink, dailybrink
+*/
+
+@import "style/css/reset.css";
+@import "style/css/typography.css";
+@import "style/css/layout.css";
+
+
+/*
+	Forms CSS
+*/
+
+#searchInput{
+	float:right;
+	margin-right:35px;
+	border:1px solid #ccc;
+	margin-top:2px;
+	padding:3px;
+	font-family: Georgia, Times New Roman, Times, serif;
+	width:150px;
+	background-color:#CCCCCC;
+	font-family:"arial", "sans-serif";
+}
+#searchsubmit{
+	float:right;
+	margin-top:3px;
+	margin-right:35px;
+	border:none; 
+	background-color:#FFFFFF;
+	font-size:12px;
+	color:#999999;
+	padding:3px;
+}
+
+.newsletterform{
+	background-color:#CCCCCC;
+	font-family: century gothic,Trebuchet MS;
+	padding:3px;
+	border:1px solid #ccc;
+	width:160px;
+}
+
+
+/*
+	Header CSS ----------------------------------------------------------------
+*/
+
+#nav{
+	display:block;
+	width:1024px;
+	height:68px;
+	margin-left:auto;
+	margin-right:auto;
+	text-indent: -999999px; overflow: hidden;
+}
+
+#logo{
+	display:block;
+	float:left;
+	width:148px;
+	height:65px;
+	background-color:#fff;
+	background-image:url(images/frontpage/nav/logo.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#navArchiveHolder{
+	float:left;
+	width:166px;
+	height:65px;
+	background-image:url(images/frontpage/nav/archive2.jpg);
+}
+
+#archive{
+	float:left;
+	width:166px;
+	height:65px;
+	background-image:url(images/frontpage/nav/archive.jpg);
+}
+
+#connectHolder{
+	display:block;
+	float:left;
+	width:108px;
+	height:65px;
+	background-image:url(images/frontpage/nav/connect2.jpg);
+}
+
+#connect{
+	display:block;
+	float:left;
+	width:108px;
+	height:65px;
+	background-image:url(images/frontpage/nav/connect.jpg);
+}
+
+#navsubmitHolder{
+	display:block;
+	float:left;
+	width:134px;
+	height:65px;
+	background-color:#fff;
+	background-image:url(images/frontpage/nav/submit2.jpg);
+	background-position:0px 0px;
+}
+
+#submit{
+	display:block;
+	float:left;
+	width:134px;
+	height:65px;
+	background-color:#fff;
+	background-image:url(images/frontpage/nav/submit.jpg);
+	background-position:0px 0px;
+}
+
+#aboutHolder{
+	display:block;
+	float:left;
+	width:108px;
+	height:65px;
+	background-image:url(images/frontpage/nav/about2.jpg);
+}
+
+#about{
+	display:block;
+	float:left;
+	width:108px;
+	height:65px;
+	background-image:url(images/frontpage/nav/about.jpg);
+}
+
+#contactHolder{
+	display:block;
+	float:left;
+	width:152px;
+	height:65px;
+	background-image:url(images/frontpage/nav/contact2.jpg);
+}
+
+#contact{
+	display:block;
+	float:left;
+	width:152px;
+	height:65px;
+	background-image:url(images/frontpage/nav/contact.jpg);
+}
+
+
+#search{
+	display:block;
+	float:left;
+	width:208px;
+	height:65px;
+	background-image:url(images/frontpage/nav/search.jpg);
+	text-align:right;
+}
+
+/*
+MegaContainer css ----------------------------------------------------------------
+*/
+
+#megaContainer{
+	min-height: 100%;
+}
+
+#gigaContainer{
+	width:1024px;
+	border:1px solid #ddd;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#fff;
+	margin-top:10px;
+	-moz-box-shadow: 2px 2px 3px #aaa;
+	-webkit-box-shadow: 2px 2px 3px #aaa;
+	box-shadow: 2px 2px 3px #aaa;
+	/* For IE 8 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#666666')";
+	/* For IE 5.5 - 7 */
+		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#666666');
+	
+	
+}
+
+
+/*
+Body CSS----------------------------------
+*/
+
+#bodybar{
+	width:1024px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#fff;
+}
+
+#lsidebarholder{
+	display:block;
+	float:left;
+	width:240px;
+	height:246px;
+	background-image:url(images/frontpage/lsidebar2.jpg);
+}
+
+#lsidebar{
+	display:block;
+	float:left;
+	width:240px;
+	height:246px;
+	background-image:url(images/frontpage/lsidebar1.gif);
+}
+
+#rsidebarholder{
+	display:block;
+	float:left;
+	width:240px;
+	height:246px;
+	background-color:#FFFFFF;
+	position:relative;
+
+}
+
+#rsidebar1{
+
+	float:left;
+	width:240px;
+	height:246px;
+
+}
+
+
+
+#mainbar{
+	display:block;
+	float:left;
+	width:540px;
+	height:250px;
+
+}
+
+#logo2{
+	display:block;
+	float:left;
+	width:518px;
+	height:193px;
+	background-image:url(images/frontpage/logo3.gif);
+}
+
+#weekbar{
+	display:block;
+	float:left;
+	width:518px;
+	height:73px;
+	
+}
+
+#weekbarDisplay{
+	display:block;
+	float:left;
+	width:333px;
+	height:73px;
+	font-family: century gothic,Trebuchet MS;
+	background-position:0 0;
+	margin-top:-5px;
+	
+}
+
+#prevWeek{
+	display:block;
+	float:left;
+	width:100px;
+	height:73px;
+	background-image:url(images/frontpage/left.jpg);
+	background-repeat:no-repeat;
+	background-position:right top;
+	
+}
+
+#nextWeek{
+	display:block;
+	float:left;
+	width:80px;
+	height:73px;
+	background-image:url(images/frontpage/right.jpg);
+	background-repeat:no-repeat;
+	
+}
+
+#peopleholder{
+	width:1024px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#people{
+	display:block;
+	margin-top:330px;
+	width:1024px;
+	height:384px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.person{
+	display:block;
+	float:left;
+	width:204px;
+	height:384px;
+	opacity:1;
+	
+	
+}
+
+.personBlank{
+	display:block;
+	float:left;
+	width:204px;
+	height:384px;
+	opacity:1;
+	background-color:#fff;
+	
+}
+
+
+
+.scrollable {
+
+	/* required settings */
+	position:relative;
+	overflow:hidden;
+	width: 1020px;
+	height:384px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*
+	root element for scrollable items. Must be absolutely positioned
+	and it should have a extremely large width to accommodate scrollable items.
+	it's enough that you set width and height for the root element and
+	not for this element.
+*/
+.scrollable .items {
+	/* this cannot be too large */
+	width:12000px;
+	position:absolute;
+}
+
+/*
+	a single item. must be floated in horizontal scrolling.
+	typically, this element is the one that *you* will style
+	the most.
+*/
+.items div {
+	float:left;
+}
+
+/*
+	Single CSS ----------------------------------------------------------------
+*/
+
+#topBar{
+	
+	height:100px;
+}
+
+#topPhoto{
+	width:982px; 
+	height:391px; 
+	background-color:#ccc;
+	margin-left:22px;
+}
+
+#singleHolder{
+	width:1024px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#nameBlock{
+	float:left;
+	height:93px;
+	font-family: century gothic,Trebuchet MS;
+	color: #ff123d;
+	background-color: #ffffff;
+	word-spacing: normal;
+	text-align: left;
+	vertical-align:99%;
+	letter-spacing: -.05em;
+	font-style:bold;
+	overflow:visible;
+}
+
+#singleTitle{
+	float:right;
+	width:602px;
+	height:93px;
+	background-color:#ffffff;
+}
+
+#singleTitle1{
+	float:left;
+	height:47px;
+	font-family:Times New Roman;
+	color:#B1A8A9;
+	font-size:2.6em;
+	text-align:left;
+	letter-spacing:-2px;
+}
+
+#singleTitle2{
+	float:left;
+	width:313px;
+	height:47px;
+	font-family:Palatino Linotype,Times New Roman;
+	font-size:1em;
+	line-height:18px;
+	color:#8A8484;
+	margin-left:10px;
+	margin-top:0px;
+	font-weight:600;
+	
+}
+
+#singleTitle3{
+	float:left;
+	width:602px;
+	height:13px;
+
+}
+
+#singleTitle4{
+	float:left;
+	margin-top:3px;
+	width:602px;
+	height:30px;
+	font-family:Times New Roman;
+	color:#8A8484;
+}
+
+#singleCollageWrapper{
+	width:274px;
+	height:610px;
+	position: absolute;
+	margin-top: 0px;
+	margin-right:0px;
+	margin-left:0px;
+	clear:both;
+}
+
+#singleTextHolder{
+	float:left;
+	margin-left:22px;
+	width:670px;
+	background-color:#fff;
+}
+
+#singleText{
+	float:left;
+	width:660px;
+	margin-top:20px;
+	background-color:#ffffff;
+}
+
+#singleRightColHolder{
+	width:294px;
+	margin-left:0px;
+	
+}
+
+#singleRightCol{
+	top: 20px;
+	float:left;
+	width:294px;
+	margin-left:10px;
+}
+
+
+#singleRightConnect{
+	float:left;
+	width:282px;
+	height:225px;
+	font-family: century gothic,Trebuchet MS;
+	word-spacing: normal;
+	text-align: center;
+	vertical-align:99%;
+	font-size: 3.0em;
+	background-color:#eeeeee;
+	letter-spacing: 0em;
+}
+
+#singleRightSocial{
+
+	float:left;
+	width:282px;
+	height:28px;
+	font-family: century gothic,Trebuchet MS;
+	background-image:url(images/singlePage/shareButton.jpg);
+	background-repeat:no-repeat;
+	margin-left:35px;
+	margin-top:20px;
+
+}
+
+
+#singleSpacer{
+height:1px; 
+width:282px; 
+background-color:#ccc;
+float:left; 
+margin-top:20px;
+}
+
+#singleRightRadar{
+	float:left;
+	width:282px;
+	font-family: century gothic,Trebuchet MS;
+	word-spacing: normal;
+	text-align: center;
+	vertical-align:99%;
+	font-size: 3.0em;
+	letter-spacing: 0em;
+}
+#singleRightMedia{
+	float:left;
+	width:282px;
+	font-family: century gothic,Trebuchet MS;
+	word-spacing: normal;
+	text-align: center;
+	vertical-align:99%;
+	font-size: 3.0em;
+	letter-spacing: 0em;
+}
+
+#singleShare{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	height:100%;
+	background-color:#fff;
+	font-size:50px;
+	font-family: century gothic,Trebuchet MS;
+	color: #ff123d;
+	word-spacing: normal;
+	text-align: center;
+	vertical-align:99%;
+	letter-spacing: -.05em;
+	font-weight:600;
+	
+}
+
+
+#singleShare2{
+	margin-left:60px;
+	margin-top:30px;
+	width:300px;
+	
+}
+
+#connectSub{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	width:260px;
+}
+
+#connectSub1{
+	float:left;
+	margin-top:10px;
+	width:50px;
+	font-size: .6em;
+	letter-spacing: 0px;
+	text-align:right;
+}
+
+
+#connectSub2{
+	float:left;
+	margin-top:10px;
+	width:150px;
+	font-size: .6em;
+	color:#6F6669;
+	letter-spacing: 0px;
+	text-align:left;
+}
+
+
+
+/*
+	AboutUs CSS ----------------------------------------------------------------
+*/
+#aboutCenter{
+	margin-right:auto;
+	margin-left:auto;
+	width:597;
+}
+
+#aboutTop{
+	height:25px;
+	margin-right:auto;
+	margin-left:auto;
+	width:560px;
+	background-image:url(images/aboutUs/ourMission.jpg);
+	background-repeat:no-repeat;
+}
+
+#aboutBody{
+	margin-right:auto;
+	margin-left:auto;
+	width:560px;
+}
+
+#aboutLogo{
+	height:71px;
+	margin-right:auto;
+	margin-left:auto;
+	width:216px;
+	background-image:url(images/aboutUs/dailyBrink.jpg);
+	background-repeat:no-repeat;
+}
+
+/*
+	Submit CSS ----------------------------------------------------------------
+*/
+#submitCenter{
+	margin-right:auto;
+	margin-left:auto;
+	width:1024px;
+}
+
+#submitTop{
+	margin-top:10px;
+	width:1024px;
+	height:96px;
+}
+
+#submitTopRight{
+	float:right;
+	width:715px;
+	height:96px;
+}
+
+#submitTopRightLogo{
+	width:358px;
+	height:84px;
+	background-image:url(images/submitpage/SubmitLogo.jpg);
+}
+
+#submitTopBottom{
+	width:715px;
+	height:10px;
+	background-color:#8BF9FA;
+
+}
+
+#submitHolder{
+	width:766px;
+	height:545px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:71px;
+}
+
+#submitContainer{
+	width:400px;
+	height:300px;
+	float:left;
+	border:1px solid #ddd;
+	background-color:#fff;
+	margin-top:10px;
+	-moz-box-shadow: 2px 2px 3px #aaa;
+	-webkit-box-shadow: 2px 2px 3px #aaa;
+	box-shadow: 2px 2px 3px #aaa;
+	/* For IE 8 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#666666')";
+	/* For IE 5.5 - 7 */
+		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#666666');
+	
+}
+
+#submitHolderLeft{
+	width:354px;
+	height:545px;
+	float:left;
+	font-family: century gothic,Trebuchet MS;
+	font-size:20px;
+	margin-top:10px;
+}
+
+#submitHolderRight{
+	width:400px;
+	height:545px;
+	float:left;
+	font-family: century gothic,Trebuchet MS;
+	font-size:15px;
+	margin-left:12px;
+}
+
+#submitBrinker{
+	width:412px;
+	height:72px;
+	font-family: century gothic,Trebuchet MS;
+	font-size:15px;
+}
+
+#submitTeam{
+	width:412px;
+	height:72px;
+	font-family: century gothic,Trebuchet MS;
+	font-size:15px;
+}
+
+/*
+	Contact Us CSS ----------------------------------------------------------------
+*/
+
+#contactTopRightLogo{
+	width:295px;
+	height:50px;
+	background-image:url(images/contactpage/contactlogo.jpg);
+
+	background-repeat:no-repeat;
+}
+
+#contactLeftText{
+	width:500px;
+	height:55px;
+	font-family:Georgia, Times New Roman;
+	font-size:20px;
+	text-align:right;
+}
+
+#contactBody{
+	width:1024px;
+
+	}
+
+#contactL{
+	width:498px;
+	font-family: century gothic,Trebuchet MS;
+	font-size:23px;
+	text-align:right;
+	float:left;
+	line-height:50px;
+	font-weight:normal;
+}
+#contactM{
+	width:2px;
+	height:250px;
+	background-color:#ccc;
+	float:left;
+}
+#contactR{
+	width:500px;
+	font-family: century gothic,Trebuchet MS;
+	font-size:20px;
+	text-align:left;
+	float:left;
+	line-height:50px;
+	margin-left:20px;
+	font-weight:normal;
+}
+
+/*
+	Archives CSS ----------------------------------------------------------------
+*/
+
+#archiveHolder{
+	width:1024px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#archiveLeft{
+	width:295px;
+	float:left;
+}
+
+#archiveLeftText{
+	width:295px;
+	height:55px;
+	font-family:Georgia, Times New Roman;
+	font-size:20px;
+	float:left;
+	text-align:right;
+}
+
+#archiveLeftButtons{
+	width:295px;
+	/*do something texty*/
+	font-size:25px;
+	font-family: century gothic,Trebuchet MS;
+	float:left;
+	text-align:right;
+}
+
+#archiveRight{
+	width:729px;
+	float:left;
+}
+
+#archiveRightTop{
+	width:729px;
+	height:82px;
+	float:left;
+}
+
+#archiveRightMiddle{
+	width:729px;
+	float:left;
+	margin-top:20px;
+}
+
+#archiveRightMiddleHolder{
+	clear:both;
+	width:630px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+
+}
+
+.archivePerson{
+
+	float:left;
+	width:125px;
+	height:240px;
+	
+}
+
+.archivePersonBlank{
+
+	float:left;
+	width:117px;
+	height:240px;
+	
+}
+
+.archiveImg{
+width:117px;
+height:182px;
+}
+
+div.button{
+	background-color:#fff;
+}
+
+/*
+	Connect CSS ----------------------------------------------------------------
+*/
+
+.connectPerson{
+
+	float:left;
+	width:295px;
+	height:110px;
+}
+
+.connectPersonText{
+
+	float:left;
+	margin-top:10px;
+	margin-left:15px;
+	width:205px;
+	text-align:left;
+	
+}
+
+
+.connectImg{
+float:left;
+width:75px;
+height:110px;
+}
+
+.indexImg{
+width:204px;
+height:326px;
+}
+
+#connectRightMiddleHolder{
+	clear:both;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+}
+/*
+Search Page css ----------------------------------------------------------------
+*/
+
+#searchHolder{
+margin-left:auto;
+margin-right:auto;
+width:600px;
+margin-top:40px;
+text-align:center;
+}
+
+/*
+	Other CSS ----------------------------------------------------------------
+*/
+
+.overlay {
+	
+	/* must be initially hidden */
+	display:none;
+	
+	/* place overlay on top of other elements */
+	z-index:10000;
+	
+	/* styling */
+	background-color:#333;
+	margin-top:-40px;
+	width:700px;	
+	min-height:200px;
+	border:1px solid #666;
+	
+	/* CSS3 styling for latest browsers */
+	-moz-box-shadow:0 0 90px 5px #000;
+	-webkit-box-shadow: 0 0 90px #000;	
+}
+
+.overlay2{
+	
+	/* must be initially hidden */
+	display:none;
+	
+	/* place overlay on top of other elements */
+	z-index:10000;
+	
+	/* styling */
+	background-color:#fff;
+	margin-top:-40px;
+	width:200px;	
+	min-height:400px;
+	border:1px solid #666;
+	
+	/* CSS3 styling for latest browsers */
+	-moz-box-shadow:0 0 90px 5px #000;
+	-webkit-box-shadow: 0 0 90px #000;	
+}
+
+/* the overlayed element */
+.simple_overlay {
+	
+	/* must be initially hidden */
+	display:none;
+	
+	/* place overlay on top of other elements */
+	z-index:10000;
+	
+	/* styling */
+	background-color:#fff;
+	
+	width:500px;	
+	height:400px;
+	border:1px solid #666;
+	
+	/* CSS3 styling for latest browsers */
+	-moz-box-shadow:0 0 90px 5px #000;
+	-webkit-box-shadow: 0 0 90px #000;	
+	margin-top:-200px;
+}
+	
+.simple_overlay .close {
+	background-image:url(images/close.png);
+	position:absolute;
+	right:-15px;
+	top:-15px;
+	cursor:pointer;
+	height:35px;
+	width:35px;
+}
+
+.overlay .close {
+	background-image:url(images/close.png);
+	position:absolute;
+	right:-28px;
+	top:-28px;
+	cursor:pointer;
+	height:35px;
+	width:35px;
+}
+
+
+
+
+/* italic single title*/
+.a1{
+font-family: Times New Roman;
+color: #000;
+text-decoration: none;
+word-spacing: normal;
+letter-spacing: 0px;
+line-height: 1.2em;
+font-size: 15px;
+font-style:italic;
+text-align:justify;
+}
+
+/* bold single question*/
+.a2{
+font-family: Times New Roman;
+color: #000;
+text-decoration: none;
+word-spacing: normal;
+text-align: left;
+letter-spacing: 1px;
+line-height: 1.3em;
+font-size: 14px;
+font-weight:600;
+font-style:normal;
+}
+
+/* normal single answer*/
+.a3{
+font-family: century gothic,Trebuchet MS;
+color: #111;
+text-decoration: none;
+word-spacing: normal;
+text-align: left;
+letter-spacing: 0;
+line-height: 1.6em;
+font-size: .8em;
+font-style:normal;
+font-weight:500;
+}
+
+.cgBold{
+font-family: century gothic,Trebuchet MS;
+color: #111;
+text-decoration: none;
+word-spacing: normal;
+text-align: left;
+letter-spacing: 0;
+line-height: 1em;
+font-size: 20px;
+font-style:normal;
+font-weight:bold;
+}
+
+p.disclaimer{
+font-family: century gothic,Trebuchet MS;
+color: #ccc;
+text-decoration: none;
+word-spacing: normal;
+letter-spacing: 0;
+line-height: 1.6em;
+font-size: 11px;
+font-style:normal;
+font-weight:500;
+}
+
+.rainbow{
+background-color:url(images/rainbow2.jpg);
+}
+
+/*SPAN Colors*/
+
+
+.red{
+color:#DE1F27;
+}
+
+.orange{
+color:#ED8025;
+}
+
+.blue{
+color:#72CAF0;
+}
+
+.green{
+color:#B3D670;
+}
+
+.purple{
+color:#D780AB;
+}
+
+.lightblue{
+color:#9B7EFC;
+}
+
+.pink{
+color:#EF7BE0;
+}
+
+.linkpink{
+color:#de1f27;
+}
+
+.gray{
+color:#222;
+}
+
+.black{
+color:#000;
+}
+
+.white{
+color:#fff;
+}
+
+/* links formatting*/
+/*
+de1f27 - Default
+F0476E - Hover
+800000 - Visited
+*/
+
+a.gray :hover{color:#222;text-decoration:none;}
+a:link {color:#de1f27;text-decoration:none;}
+a:visited {color:#de1f27;text-decoration:none;}
+a:hover {color:#F0476E;text-decoration:none;}
+a:active {color:#de1f27;text-decoration:none;}
+
+
+
+#facebox {
+
+		/* overlay is hidden before loading */
+		display:none;
+
+		/* standard decorations */
+		width:400px;
+		border:10px solid #666;
+
+		/* for modern browsers use semi-transparent color on the border. nice! */
+		border:10px solid rgba(82, 82, 82, 0.698);
+
+		/* hot CSS3 features for mozilla and webkit-based browsers (rounded borders) */
+		-moz-border-radius:8px;
+		-webkit-border-radius:8px;
+	}
+
+	#facebox div {
+		padding:10px;
+		border:1px solid #3B5998;
+		background-color:#fff;
+		font-family:"lucida grande",tahoma,verdana,arial,sans-serif
+	}
+
+	#facebox h2 {
+		margin:-11px;
+		margin-bottom:0px;
+		color:#fff;
+		background-color:#6D84B4;
+		padding:5px 10px;
+		border:1px solid #3B5998;
+		font-size:20px;
+	}
+
+
