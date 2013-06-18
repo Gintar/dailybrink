@@ -640,13 +640,14 @@ $.jGFeed('http://www.blog.dailybrink.com/?feed=rss2',
    
 
   </div><!-- end Scrollable-->
-  
+
+<!--  
 <div style="width:1024px;height:1010px;padding-top:20px;border-top:1px dotted #ccc;">
 <div style="font-size:30px;color:#DE1F27;font-family:arial;text-align:center;width:100%">BR!NK Social Media</div>
 <script type="text/javascript" src="https://s3-us-west-1.amazonaws.com/hypes-images/assets/scripts/tintembed.js"></script>
 <iframe class="tintup" src="http://www.tintup.com/dailybrink?embed=true&cols=4" style="height:100%;width:100%;border:none;"></iframe>	
 </div>
-  
+  -->
   <!-- used for displaying blog headlines -->
   <hr style="margin-top:18px;width:90%;margin-left:auto;margin-right:auto;">
   <a href="http://www.blog.dailybrink.com" target="_blank">
